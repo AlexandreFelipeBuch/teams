@@ -1,9 +1,12 @@
-import { Container, Logo } from "./styles";
+import { Container, Logo, BackButton, BackIcon } from "./styles";
 import logoImg from "@assets/logo.png";
-import { Heart } from "phosphor-react-native";
+
 export function Header() {
   return (
     <Container>
+      <BackButton>
+        <BackIcon />
+      </BackButton>
       <Logo source={logoImg} />
     </Container>
   );

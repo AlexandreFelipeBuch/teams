@@ -1,6 +1,7 @@
 import { StatusBar } from "react-native";
 import { Groups } from "@screens/Groups";
 import { ThemeProvider } from "styled-components";
+import * as Svg from "react-native-svg";
 import {
   useFonts,
   Roboto_400Regular,
