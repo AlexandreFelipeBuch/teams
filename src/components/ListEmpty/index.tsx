@@ -1,9 +1,12 @@
-import { Container, LoadIndicator } from "./styles";
+import { Container, Message } from "./styles";
+type Props = {
+  message: string;
+};
 
-export function ListEmpty() {
+export function ListEmpty({ message }: Props) {
   return (
     <Container>
-      <LoadIndicator />
+      <Message>{message}</Message>
     </Container>
   );
 }
