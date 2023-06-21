@@ -6,7 +6,7 @@ import { Header } from "@components/Header";
 import { HighLight } from "@components/HighLight";
 
 export function Groups() {
-  const [groups, setGroups] = useState("RocketSeat");
+  const [groups, setGroups] = useState(["RocketSeat"]);
   return (
     <Container>
       <Header />
