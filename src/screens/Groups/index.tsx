@@ -12,15 +12,15 @@ export function Groups() {
     <Container>
       <Header />
       <HighLight title="Turmas" subtitle=" Jogue com a sua turma" />
-      <FlatList
+      {/* <FlatList
         data={groups}
         keyExtractor={(item) => item}
         renderItem={({ item }) => <GroupCard title={item} />}
-        contentContainerStyle={groups.length === 0 && { flex: 1 }}
+        // contentContainerStyle={groups.length === 0 && { flex: 1 }}
         ListEmptyComponent={() => (
           <ListEmpty message="Que tal cadastrar a primeira turma?" />
         )}
-      />
+      /> */}
     </Container>
   );
 }
